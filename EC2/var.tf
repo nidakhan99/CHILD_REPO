@@ -71,3 +71,10 @@ variable "vpc_id" {
   default = "xyx"
   description = "vpc id "
 }
+
+
+variable "key" {
+  type = string
+  default = "my_key"
+  description = "key pair name "
+}
