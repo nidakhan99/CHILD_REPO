@@ -27,6 +27,12 @@ variable "ec2_type" {
   description = "instance type"
 }
 
+variable "key" {
+  type        = string
+  default = "my_key"
+  description = "key pair name"
+}
+
 
 
 variable "bestion" {
@@ -70,11 +76,4 @@ variable "vpc_id" {
   type = string
   default = "xyx"
   description = "vpc id "
-}
-
-
-variable "key" {
-  type = string
-  default = "my_key"
-  description = "key pair name "
 }
